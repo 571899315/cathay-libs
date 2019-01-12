@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cathay-cache" />
+        <module name="cathay-common" />
+        <module name="cathay-common2" />
+        <module name="cathay-event" />
+        <module name="cathay-filesystem" />
+        <module name="cathay-kafka" />
+        <module name="cathay-mybatis" />
+        <module name="cathay-rest" />
+        <module name="cathay-scheduler" />
+        <module name="cathay-security" />
+        <module name="cathay-spring" />
+        <module name="cathay-springboot-starter" />
+        <module name="cathay-springweb" />
+        <module name="lib－demo" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
