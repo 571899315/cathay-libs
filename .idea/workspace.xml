@@ -5,8 +5,7 @@
       <change afterPath="$PROJECT_DIR$/smart-chat/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/smart-chat/logic/src/main/java/logic/SpringBootLoginApplication.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/smart-chat/logic/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart-chat" beforeDir="false" afterPath="$PROJECT_DIR$/smart-chat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/smart-chat/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/smart-chat/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/smart-chat/auth/auth.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/smart-chat/auth/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/smart-chat/auth/pom.xml" afterDir="false" />
@@ -57,7 +56,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/smart-chat/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -85,7 +94,7 @@
     </dirStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/smart-chat" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -125,11 +134,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="163" />
-    <option name="y" value="146" />
-    <option name="width" value="1280" />
-    <option name="height" value="709" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -139,7 +146,27 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="cathay-libs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cathay-libs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cathay-libs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cathay-libs" type="462c0819:PsiDirectoryNode" />
+              <item name="raptor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cathay-libs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cathay-libs" type="462c0819:PsiDirectoryNode" />
+              <item name="smart-chat" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -206,12 +233,12 @@
       <updated>1547294421813</updated>
       <workItem from="1547294423292" duration="7267000" />
       <workItem from="1547304685227" duration="39000" />
-      <workItem from="1548239820043" duration="172000" />
+      <workItem from="1548239820043" duration="541000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7478000" />
+    <option name="totallyTimeSpent" value="7847000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -441,6 +468,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="616">
           <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-chat/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
         </state>
       </provider>
     </entry>
