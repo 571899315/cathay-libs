@@ -5,8 +5,8 @@ com/cathay/security/Constants$CacheType.class
 com/cathay/security/DelegatingFilter.class
 com/cathay/security/cache/RedisCache.class
 com/cathay/security/SecurityResourceManager$1.class
-com/cathay/security/exception/UserNotFoundException.class
 com/cathay/security/RequestContextHolder.class
+com/cathay/security/exception/UserNotFoundException.class
 com/cathay/security/exception/UserPasswordWrongException.class
 com/cathay/security/Cache.class
 com/cathay/security/cache/LocalCache.class

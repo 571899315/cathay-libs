@@ -19,6 +19,7 @@
         <module name="cathay-spring" />
         <module name="cathay-springboot-starter" />
         <module name="cathay-springweb" />
+        <module name="lib-demo" />
         <module name="lib－demo" />
       </profile>
     </annotationProcessing>
