@@ -11,6 +11,6 @@ import org.springframework.context.annotation.Import;
 @Target({java.lang.annotation.ElementType.TYPE})
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
-//@Import({CacheManagerConfiguration.class})
+@Import({CacheManagerConfiguration.class})
 public @interface EnableMultiCaching {
 }

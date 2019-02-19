@@ -1,6 +1,5 @@
 package com.cathay.jvm.cache;
 
-
 import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -10,6 +9,7 @@ import java.util.Map;
 import java.util.Set;
 
 import com.cathay.jvm.cache.annotation.Cached;
+import org.springframework.cglib.proxy.Callback;
 import org.springframework.cglib.proxy.Enhancer;
 
 
@@ -93,11 +93,11 @@ public class CachedInvocationProxyBuilder {
         return methods;
     }
 
-    private static <T> T enhance(Class<T> itf, InvocationCacheHandler invocationWrapper) {
-        Enhancer enhancer = new Enhancer();
+    private static <T> T enhance(final Class<T> itf, final InvocationCacheHandler invocationWrapper) {
+        final Enhancer enhancer = new Enhancer();
         enhancer.setInterfaces(new Class[]{itf});
-        enhancer.setCallback(invocationWrapper);
-        T proxy = enhancer.create();
+        enhancer.setCallback((Callback) invocationWrapper);
+        final T proxy = (T) enhancer.create();
         return proxy;
     }
 

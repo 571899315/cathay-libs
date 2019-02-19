@@ -35,6 +35,17 @@
             <artifactId>cathay-springboot-starter</artifactId>
             <version>${project.version}</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.cathay</groupId>
+            <artifactId>cathay-jvmcache</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>18.0</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -58,7 +69,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <!--<configuration>-->
-                    <!--<maimClass>com.cathay.lib.demo.LibDemoSpringBootApplication</maimClass>-->
+                <!--<maimClass>com.cathay.lib.demo.LibDemoSpringBootApplication</maimClass>-->
                 <!--</configuration>-->
                 <executions>
                     <execution>
