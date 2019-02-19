@@ -11,6 +11,7 @@
         <module name="cathay-common2" />
         <module name="cathay-event" />
         <module name="cathay-filesystem" />
+        <module name="cathay-jvm-cache" />
         <module name="cathay-kafka" />
         <module name="cathay-mybatis" />
         <module name="cathay-rest" />
@@ -20,7 +21,6 @@
         <module name="cathay-springboot-starter" />
         <module name="cathay-springweb" />
         <module name="lib-demo" />
-        <module name="lib－demo" />
       </profile>
     </annotationProcessing>
   </component>

@@ -5,11 +5,7 @@ package com.cathay.cache.local;
 
 import java.io.Closeable;
 
-/**
- * @description <br>
- * @author <a href="mailto:vakinge@gmail.com">vakin</a>
- * @date 2016年12月4日
- */
+
 public interface Level1CacheProvider extends Closeable{
 
 	void start();

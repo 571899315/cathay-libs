@@ -117,7 +117,9 @@ public abstract class RedisBase {
 	 *         false：key不存在或超时未设置成功
 	 */
 	public boolean setExpire(long seconds) {
-		if(seconds <= 0)return true;
+		if(seconds <= 0){
+			return true;
+		}
 		try {
 			if(!isBinary)return getJedisCommands(groupName).expire(key, (int)seconds) == 1;
 			if(isCluster(groupName)){

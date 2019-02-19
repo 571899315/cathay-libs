@@ -78,7 +78,10 @@ public class MapCacheProvider implements Closeable{
 	 */
 	public boolean set(String key, Object value, int timeout) {
 		
-		if(currentCacheSize.incrementAndGet() > maxSize)throw new RuntimeException("CacheSize over the max size");
+		if(currentCacheSize.incrementAndGet() > maxSize){
+			throw new RuntimeException("CacheSize over the max size");
+		}
+
 
 		cache.put(key, value);
 		if (timeout > 0) {

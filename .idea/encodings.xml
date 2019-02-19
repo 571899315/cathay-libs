@@ -7,6 +7,7 @@
     <file url="file://$PROJECT_DIR$/cathay-common2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cathay-event" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cathay-filesystem" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cathay-jvmcache" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cathay-kafka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cathay-mybatis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cathay-rest" charset="UTF-8" />

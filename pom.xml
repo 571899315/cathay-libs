@@ -47,7 +47,8 @@
 		<module>cathay-event</module>
 		<module>cathay-security</module>
         <module>lib－demo</module>
-	</modules>
+        <module>cathay-jvmcache</module>
+    </modules>
 
 	<dependencies>
 

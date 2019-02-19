@@ -7,12 +7,7 @@ import java.util.Date;
 
 import com.cathay.common.util.DateUtils;
 
-/**
- * 
- * @description <br>
- * @author <a href="mailto:vakinge@gmail.com">vakin</a>
- * @date 2015年4月28日
- */
+
 public class CacheExpires {
 	
 	public final static long IN_1MIN = 60;
